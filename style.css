@@ -1,0 +1,97 @@
+body {
+    background-color: #D1D5DE;
+    font-family: 'Raleway', sans-serif;
+    color: #181E17;
+    font-size: 20;
+    line-height: 2em;
+}
+
+p {
+    color: #61524A;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1, h2 {
+    weight: bold;
+    color: #515C42;
+}
+
+.container {
+    width: 900px;
+    margin: 2em auto;
+    background-color: rgb(233, 243, 255);
+    padding: 40px 60px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#img-profile {
+    width: 200px;
+    height: 215px;
+}
+
+.list-inline {
+    display: inline-block;
+    padding: 0px 20 px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li{
+    display: inline;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.list-inline li a{
+    color: 515C42;
+}
+
+.list-inline li a:hover{
+    font-size: 44px;
+    margin: 3px;
+    color: #626C52;
+}
+.btn-green {
+    background-color: #8AAA79;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn-green:hover {
+    background-color:#A6C495;
+    padding: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+        width: 700px;
+    }
+}
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+        width: 500px;
+    }
+}
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+        width: 300px;
+    }
+}
